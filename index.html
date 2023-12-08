@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercedes Wiki</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,700,0,0">
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet'>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+<script defer src="app.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400&display=swap');
+  </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,700,0,0">
+<header>
+    <div id="menu-top">
+        <p>Mercedes Wiki</p>
+        <div id="mini-menu">
+            <div id="mini-menu2">
+                <a href="#Class_s_body">Class-S</a>
+                <a href="#Class_G_body">Class-G</a>
+                <a href="#Gt63_body">GT63</a>
+                <a href="#grid">Vitrine</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    
+    <div id="Class_s_body">
+        <div>
+        <img id="Class_S" src="Media/Class S.jpg" alt="">
+        </div>
+        <div id="Class_s_text">
+            <h1 id="S_title">Class S</h1>
+            <p>
+                The Mercedes-Benz S-Class is a flagship luxury sedan that epitomizes the pinnacle of automotive sophistication and innovation. Renowned for its opulent design, cutting-edge technology, and impeccable craftsmanship, the S-Class stands as a symbol of automotive excellence.
+            </p>
+        </div> 
+    </div>
+    <div id="Class_G_body">
+        <img id="Class_G" src="Media/Class G.jpg" alt="">
+        <div >
+            <h1 id="Class_G_title">Class G</h1>
+            <p id="Class_G_text">The Mercedes-Benz G-Class, commonly known as the G-Wagon, is an iconic and rugged luxury SUV that has become a symbol of off-road prowess and timeless design. Originally developed for military use, the G-Class has evolved into a high-end SUV that seamlessly combines luxury with unparalleled off-road capabilities.</p>
+        </div>
+    </div>
+
+    <div id="Gt63_body">
+        <img id="Gt63" src="Media/gt63.jpg" alt="">
+        <div>
+            <h1 id="Gt63_title">GT 63</h1>
+            <p id="Gt63_text">The Mercedes-AMG GT 63 is a high-performance sports sedan that represents the pinnacle of the AMG lineup, combining stunning design, cutting-edge technology, and exhilarating performance. As part of the AMG GT family, this four-door coupe seamlessly blends the elegance of a luxury sedan with the raw power and dynamics expected from a performance-oriented vehicle.</p>
+        </div>
+    </div>
+    
+    <div id="grid">
+        <div><img src="Media/amgblack.jpg" alt=""></div>
+        <div><img src="Media/aileron.jpg" alt=""></div>
+        <div><img src="Media/interieur.jpg" alt=""></div>
+        <div><img src="Media/interieur2.jpg" alt=""></div>
+        <div><img src="Media/coté.jpg" alt=""></div>
+        <div><img src="Media/amgarriere.jpg" alt=""></div>
+        <div><img src="Media/avant.jpg" alt=""></div>
+        <div><img src="Media/amg.jpg" alt=""></div>
+        <div><img src="Media/pneu.jpg" alt=""></div>
+        <div><img src="Media/volant.jpg" alt=""></div>
+    </div>
+
+    <section id="loc">
+        <h1>Location of the nearest Mercedes's concesion</h1>
+        <div id="mymap"></div>
+    </section>
+
+    <section id="contact">
+        <h1 id="contact2">Contact</h1>
+        <form id="form">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="me@email.com" required>
+            </div>
+            <div>
+                <label for="sender">Name</label>
+                <input type="text" name="sender" id="sender" placeholder="Your Name" required>
+            </div>
+            <div>
+                <button type="reset" id="btnreset">Reset</button>
+                <button type="submit" id="btnsubmit">Submit</button>
+            </div>
+        </form>
+    </section>
+    
+    <div class="end">
+        <a href="#" id="arrow" class="material-symbols-rounded">
+        arrow_circle_up
+        </a>
+    </div>
+
+
+    <footer>
+        <div class="names">
+            <div class="text">Designed by : El Amouri Redwane</div>
+            <div class="text">Made by: El Amouri Redwane</div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright &copy;1996–2023, PRAGUE City
+            </p>
+            <p>Made in 2023.</p>
+        </div>
+        <p>Server content is protected by copyright. Any use of the Server Content, including publication or other distribution of the Server Content, is done without written consent from Redwane El Amouri.</p>
+    </footer>
+</body>
+</html>
